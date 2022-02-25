@@ -16,8 +16,21 @@ public class Solution {
     }
 
     public static String toHex(String binaryNumber) {
-        //напишите тут ваш код
-        return null;
+        if (binaryNumber == null)
+        return "";
+
+        char[] array = new char[binaryNumber.length()];
+        for (int i = 0; i < binaryNumber.length(); i++) {
+            array[i] = binaryNumber.charAt(i);
+        }
+        if(array.length % 4 != 0) {
+
+        }
+
+
+
+
+        return binaryNumber;
     }
 
     public static String toBinary(String hexNumber) {
