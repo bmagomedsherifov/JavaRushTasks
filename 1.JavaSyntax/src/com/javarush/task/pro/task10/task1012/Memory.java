@@ -17,9 +17,5 @@ public class Memory {
 
     public static void executeDefragmentation(String[] array) {
         //напишите тут ваш код
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == null)
-                array[i] = array[i+1];
-        }
     }
 }

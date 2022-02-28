@@ -17,6 +17,8 @@ public class Iphone {
         this.price = price;
     }
 
+    //напишите тут ваш код
+
     public static void main(String[] args) {
         Iphone iphone1 = new Iphone("X", "Black", 999);
         Iphone iphone2 = new Iphone("X", "Black", 999);

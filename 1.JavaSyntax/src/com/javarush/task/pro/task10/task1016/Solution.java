@@ -8,9 +8,12 @@ public class Solution {
 
     public static void showWeather(City city) {
         //напишите тут ваш код
+        System.out.println("В городе " + city.getName() + " сегодня температура воздуха " + city.getTemperature());
     }
 
     public static void main(String[] args) {
         //напишите тут ваш код
+        City msk = new City("Москва", 25);
+        showWeather(msk);
     }
 }
